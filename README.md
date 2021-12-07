@@ -2,12 +2,14 @@
 
 
 ### Abstract
-Image translation is concerned with taking one visual
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Image translation is concerned with taking one visual
 representation in a domain, and transforming it into another domain, whilst maintaining similarity to the input in
 the original domain. Well known examples to this include,
 image colourisation, creating realistic images from edge
 contours, taking horse images and converting them to zebras, changing people’s genders and alike.
-In this project, we examine a problem relevant to the pandemic, that is, adding masks to people’s faces or removing them, and discuss state-of-the-art technique CycleGAN.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this project, we examine a problem relevant to the pandemic, that is, adding masks to people’s faces or removing them, and discuss state-of-the-art technique CycleGAN.
 Furthermore, we evaluate the performance of person identitification classifiers with real/fake data with/out masks.
 We show that CycleGAN produces well masked faces from
 naked faces as input, while provides poor results of naked
