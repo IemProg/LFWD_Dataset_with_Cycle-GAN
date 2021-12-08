@@ -19,14 +19,19 @@ improvement of classification accuracy on synthetic data
 ![Samples for generating naked pictures from masked faces](Mask2Unmask_pics.png "Samples for generating naked pictures from masked faces") ![Samples for generating masked pictures from naked faces](Unmask2Mask_pics.png "Samples for generating masked pictures from naked faces")
 
 ### Download 
-Please, download the pretrained models for Task1:Classifers (VGG16, ResNet18), and Cycle-GAN:
+Please, download the pretrained models for classification and CycleGAN:
+
+>- Classifiers: https://drive.google.com/file/d/1-QQherdCUz3aZibFsVHMOMkc_mngWIIQ/view?usp=sharing 
+
+>- CycleGAN Generators: https://drive.google.com/file/d/1uaa8sc_GBzvgu3GrR-z7Z0dJ3lP7FhNT/view?usp=sharing
+
+### Dataset 
+Please keep the same structure of the dataset to prevent any data leakage. 
+>> Data splitting is done: such that trainA, trainB, testA, testB are: train_naked, train_masked, test_naked, and test_masked respectively.
+
 
 >- Dataset: https://drive.google.com/file/d/1pJyaUyY11G4jjmblJ7MFAWXB-Hy82UWL/view?usp=sharing
 
->- Link: https://drive.google.com/file/d/1-QQherdCUz3aZibFsVHMOMkc_mngWIIQ/view?usp=sharing 
-
-Please keep the same structure of the dataset to prevent any data leakage. 
->> Data splitting is done: such that trainA, trainB, testA, testB are: train_naked, train_masked, test_naked, and test_masked respectively.
 ### Training
 
 Our tasks each in a separate notebook:
