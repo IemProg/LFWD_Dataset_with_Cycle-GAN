@@ -21,9 +21,12 @@ improvement of classification accuracy on synthetic data
 ### Download 
 Please, download the pretrained models for Task1:Classifers (VGG16, ResNet18), and Cycle-GAN:
 
+>- Dataset: https://drive.google.com/file/d/1pJyaUyY11G4jjmblJ7MFAWXB-Hy82UWL/view?usp=sharing
+
 >- Link: https://drive.google.com/file/d/1-QQherdCUz3aZibFsVHMOMkc_mngWIIQ/view?usp=sharing 
 
-
+Please keep the same structure of the dataset to prevent any data leakage. 
+>> Data splitting is done: such that trainA, trainB, testA, testB are: train_naked, train_masked, test_naked, and test_masked respectively.
 ### Training
 
 Our tasks each in a separate notebook:
