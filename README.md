@@ -21,7 +21,7 @@ improvement of classification accuracy on synthetic data
 ### Download 
 Please, download the pretrained models for classification and CycleGAN:
 
->- Classifiers: https://drive.google.com/file/d/1-QQherdCUz3aZibFsVHMOMkc_mngWIIQ/view?usp=sharing 
+>- Classifiers: https://drive.google.com/file/d/1y6z5qQKdhK-etsIeKIfXrDbF5375pxxL/view?usp=sharing 
 
 >- CycleGAN Generators: https://drive.google.com/file/d/1uaa8sc_GBzvgu3GrR-z7Z0dJ3lP7FhNT/view?usp=sharing
 
